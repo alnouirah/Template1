@@ -746,7 +746,7 @@ body{
 /*----------------- Footer Section -------------------------*/
 .footer {
   padding: 20px 0px;
-  background-color: #164168;
+  background-color: #222222;
   color: #fff;
   /* ----- End .first_foot class ---*/
   /**-- End .second_foot class **/
@@ -756,6 +756,17 @@ body{
 
 .footer h3 {
   font-size: 16px;
+}
+
+.footer .btn{
+    background-color: #9e1b1b !important;
+    border-color: #711f32 !important;
+}
+
+.footer .btn:hover{
+    background-color: #d42020 !important;
+    border-color: #711f32 !important;
+    
 }
 
 .footer h3::after {
@@ -1034,23 +1045,30 @@ body{
   width: 256px;
   font-size: 12px;
   height: 36px;
-  color: #337ab7;
+  color: #9e1b1b;
+  background: #464343b0;
+  border-color: #5a5a5a;
+  border-radius: 4px;
 }
 
 .footer .subscrib .navbar-form .SubscribTop .form-control::-webkit-input-placeholder {
-  color: #337ab7;
+  color: #9e1b1b;
+  background: #fff;
 }
 
 .footer .subscrib .navbar-form .SubscribTop .form-control::-ms-input-placeholder {
-  color: #337ab7;
+  color: #9e1b1b;
+  background: #fff;
 }
 
 .footer .subscrib .navbar-form .SubscribTop .form-control::placeholder {
-  color: #337ab7;
+  color: #9e1b1b;
+  background: #fff;
 }
 
 .footer .subscrib .navbar-form .SubscribTop .form-control:focus {
-  color: #337ab7;
+  color: #9e1b1b;
+  background: #fff;
 }
 
 .footer .subscrib .navbar-form .SubscribTop span {
@@ -1065,7 +1083,7 @@ body{
 }
 
 .copyright {
-  background: #337ab7;
+  background: #9e1b1b;
   color: #fff;
   padding-top: 10px;
 }
