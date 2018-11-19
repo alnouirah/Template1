@@ -1,5 +1,5 @@
 body{
-    height: 3000px;
+    position: relative;
 }
 
 .navbar-inverse .navbar-nav>.open>a,
@@ -16,6 +16,8 @@ body{
   .navbar-inverse .navbar-nav>.active>a:hover{
     background-color: #9e1b1b;
 }
+
+
 .mainCarousel{
     padding-top: 0;
     margin-bottom: 10px;
@@ -759,13 +761,13 @@ body{
 }
 
 .footer .btn{
-    background-color: #9e1b1b !important;
-    border-color: #711f32 !important;
+  background-color: #540e0e !important;
+  border-color: #461521 !important;
 }
 
 .footer .btn:hover{
-    background-color: #d42020 !important;
-    border-color: #711f32 !important;
+  background-color: #9c2727 !important;
+  border-color: #461521 !important;
     
 }
 
@@ -1083,7 +1085,7 @@ body{
 }
 
 .copyright {
-  background: #9e1b1b;
+  background: #797070;
   color: #fff;
   padding-top: 10px;
 }
